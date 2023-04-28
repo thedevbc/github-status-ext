@@ -7,3 +7,4 @@ For now, you can clone the code and load it as an unpacked extension using Devel
 
 # What does it do?
 This extensions adds a status bar to the top of the github.com website in order to show the current status reported at [githubstatus.com](https://www.githubstatus.com), using the api described [there](https://www.githubstatus.com/api).
+Whenever you visit a github.com url, it will get the status report and show it. Right now, it only updates when you navigate to a page, or refresh the page. Auto-refresh is on the roadmap to be added.
