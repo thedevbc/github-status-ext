@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Github Status",
+    "version": "1.0",
+    "description": "Add status indicator to the top of github.com.",
+    "content_scripts": [
+        {
+          "js": ["scripts/content.js"],
+          "matches": [
+            "https://github.com/*",
+            "https://github.com/*"
+          ]
+        }
+      ]
+}
