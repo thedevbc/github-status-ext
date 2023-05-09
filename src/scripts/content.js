@@ -50,16 +50,16 @@ if (body.firstChild) {
         if (summary.status.indicator == "minor") bgColor = "orangered";
         // if (summary.status.indicator == "major") {}
         // if (summary.status.indicator == "critical") {}
-
-        const linkToGHS = document.createElement("a");
-        linkToGHS.href = "https://githubstatus.com";
-        linkToGHS.target = "_blank";
-        linkToGHS.textContent = "more...";
-        div.appendChild(linkToGHS);
       }
 
       div.textContent = text;
       div.style.backgroundColor = bgColor;
+
+      const linkToGHS = document.createElement("a");
+      linkToGHS.href = "https://githubstatus.com";
+      linkToGHS.target = "_blank";
+      linkToGHS.textContent = "more...";
+      div.appendChild(linkToGHS);
 
       document.body.insertBefore(div, document.body.firstChild);
     });
