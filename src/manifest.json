@@ -9,6 +9,9 @@
     "48": "images/48x48.png",
     "128": "images/128x128.png"
   },
+  "host_permissions": [
+    "https://*.github.com/"
+  ],
   "content_scripts": [
     {
       "js": [
