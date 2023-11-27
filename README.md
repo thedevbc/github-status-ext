@@ -2,7 +2,7 @@
 Chrome Extension to show Github Status at the top of the Github website
 
 # Not available outside of Dev Mode, yet
-This has not been published publicly yet. That's on the roadmap. Hope to have it done soon.
+This has not been published publicly.
 For now, you can clone the code and load it as an unpacked extension using Developer Mode in the browser.
 
 # What does it do?
